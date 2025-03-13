@@ -12,8 +12,7 @@ The purpose of this project is to use machine learning techniques to predict dia
 
 ### Files
 - **`regsk11.py`**: Python code implementing the models.
-- **Model Comparison CSV**: Contains performance metrics of different models.
-- **Predictions CSV**: Stores predictions of different models for further analysis.
+- **Copilotchat_11**: Copilot help 
 
 ### Dataset
 The dataset used is the Diabetes dataset from Scikit-learn. It includes the following:
@@ -59,12 +58,9 @@ The following metrics are used to evaluate the models:
 
 #### Model Comparison:
 - All models are evaluated and compared to determine the best-performing one.
-- A CSV file with comparison results is generated.
+
 
 ### Limitations
 - The dataset size is relatively small and may not generalize well to all diabetes cases.
-- SVR performed best on test data but had a high cross-validation RMSE, indicating potential overfitting.
-- Random Forest performed poorly across most metrics compared to other models.
-- Linear Regression showed the most consistent performance across all metrics, making it the most reliable model overall.
-
+- Overfitting Risk Random Forest and Support Vector Regression (SVR) models are prone to overfitting, especially when the dataset is small 
 
