@@ -1,4 +1,4 @@
-# Diabetes Prediction Models with Error Handling
+
 # Import necessary libraries
 import numpy as np
 import pandas as pd
@@ -191,9 +191,9 @@ if __name__ == "__main__":
 # Best performing model analysis
 # SVR is a good model because it ranks first in 3 out of 4 testing metrics (RMSE, MAE, and R²), even though it has the worst CV RMSE.
 # SVR has the lowest RMSE and MAE, and the highest R², indicating better performance on the test set compared to other models.
-# However, The worst CV RMSE indicates the model is overfitting, meaning it performs well on training data but struggles to generalize to new, 
+# However, it has the worst CV RMSE, which indicates the model is overfitting, meaning it performs well on training data but struggles to generalize to new, 
 # unseen data, as shown by poor performance during cross-validation. 
-# Linear regression performs decently with respect to Testing RMSE and MAE, though not as well as SVR.
+# Linear regression performs decently with the Testing RMSE and MAE, though not as well as SVR.
 # The Linear regression CV RMSE is lower than SVR’s, meaning the model performs better when tested on different data during cross-validation. 
 # This shows it generalizes better( it's more reliable on new, unseen data).
 # Random Forest does poorly across most metrics, especially Testing RMSE, Testing MAE, and Testing R², 
